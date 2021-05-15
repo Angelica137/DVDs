@@ -10,4 +10,6 @@ public class DVD {
 		return (this.name);
 	}
 
+	DVD[] dvdLibrary = new DVD[100];
+
 }
