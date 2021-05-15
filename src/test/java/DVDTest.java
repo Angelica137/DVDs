@@ -6,9 +6,9 @@ public class DVDTest {
 
 	@Test
 	public void testDVDisaDVD() {
-		DVD d = new DVD("name");
+		DVD d = new DVD("name", "Zhu Ly", 2021);
 		String output = d.info();
-		assertEquals("name", output);
+		assertEquals("name. Directed by: Zhu Ly. Released on: 2021", output);
 	}
 
 	@Test
