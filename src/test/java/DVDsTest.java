@@ -5,9 +5,9 @@ import static org.junit.Assert.assertEquals;
 public class DVDsTest {
 
 	@Test
-	public void testDVDsisArray() {
-		dvdbox = new DVDs();
-		assertEquals(100, dvdbox.size());
+	public void testDVDisaDVD() {
+		d = new DVDs();
+		assertEquals("name", d.name());
 		
 	}
 
